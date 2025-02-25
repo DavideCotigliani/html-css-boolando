@@ -83,6 +83,15 @@ justify-content: center;
     background-color: white;
 }
 
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
 .redprice{
     color: red;
     display: inline-block;
@@ -91,4 +100,8 @@ justify-content: center;
 .straightprice{
     text-decoration: line-through;
     display: inline-block;
+}
+
+.card:hover .overlay{
+opacity: 1;
 }
