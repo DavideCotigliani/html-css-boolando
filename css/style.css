@@ -83,6 +83,21 @@ justify-content: center;
     background-color: white;
 }
 
+.front{
+    display: block;
+}
+
+.back{
+    display: none;
+}
+
+.card:hover .front{
+    display: none;
+}
+
+.card:hover .back{
+    display: block;
+}
 .overlay{
     width: 100%;
     height: 100%;
@@ -91,6 +106,7 @@ justify-content: center;
     top: 0px;
     opacity: 0;
 }
+
 
 .redprice{
     color: red;
@@ -104,4 +120,23 @@ justify-content: center;
 
 .card:hover .overlay{
 opacity: 1;
+}
+
+footer{
+    background-color: rgba(49, 37, 37, 0.959);
+    color: white;
+    padding: 30px 0px;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.primofooter{
+    line-height: 2;
+}
+
+.secondofooter{
+line-height: 2;
 }
