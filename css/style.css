@@ -12,6 +12,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .donna{
@@ -80,4 +81,14 @@ justify-content: center;
     right:0px;
     border: 1px solid white;
     background-color: white;
+}
+
+.redprice{
+    color: red;
+    display: inline-block;
+}
+
+.straightprice{
+    text-decoration: line-through;
+    display: inline-block;
 }
