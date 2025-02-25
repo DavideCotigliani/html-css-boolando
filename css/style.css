@@ -41,12 +41,43 @@ main{
 justify-content: center;
 }
 
-
-
 .card{
     width: 100%;
+    position: relative;
 }
 
 .card img{
     max-width: 100%;
+}
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+
+.label{
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+}
+
+.label2{
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+}
+
+.heartlabel{
+    padding: 5px 10px;
+    color: black;
+    position: absolute;
+    top: 13px;
+    right:0px;
+    border: 1px solid white;
+    background-color: white;
 }
